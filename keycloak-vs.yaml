@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: keycloak-virtual-service
+spec:
+  hosts:
+  - "d2glhhmtk61wu.cloudfront.net"
+  gateways:
+  - bookinfo-gateway
+  http:
+  - route:
+    - destination:
+        host: "keycloak-release.default.svc.cluster.local"
+        port:
+          number: 80
