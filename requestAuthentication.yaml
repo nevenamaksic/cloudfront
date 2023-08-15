@@ -7,5 +7,5 @@ spec:
     matchLabels:
       app: productpage
   jwtRules:
-  - issuer: "http://d2glhhmtk61wu.cloudfront.net/realms/Istio"
-    jwksUri: "https://d2glhhmtk61wu.cloudfront.net/realms/Istio/protocol/openid-connect/certs"
+  - issuer: "http://d13h57e865tcyq.cloudfront.net/realms/Istio"
+    jwksUri: "https://d13h57e865tcyq.cloudfront.net/realms/Istio/protocol/openid-connect/certs"

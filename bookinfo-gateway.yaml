@@ -21,7 +21,7 @@ metadata:
   name: bookinfo
 spec:
   hosts:
-  - "d2glhhmtk61wu.cloudfront.net"
+  - "d13h57e865tcyq.cloudfront.net"
   gateways:
   - bookinfo-gateway
   http:
